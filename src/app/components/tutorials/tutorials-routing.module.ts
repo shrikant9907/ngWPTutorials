@@ -3,12 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { SingleComponent } from './pages/single/single.component';
 import { CategoryComponent } from './pages/category/category.component';
-
+import { AppLayoutComponent } from './layouts/app-layout/app-layout.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: AppLayoutComponent
   },
   {
     path: 'tutorial-category',

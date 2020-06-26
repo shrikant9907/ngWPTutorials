@@ -15,10 +15,19 @@ import { HomeComponent } from './pages/home/home.component';
 import { CategoryComponent } from './pages/category/category.component';
 import { SingleComponent } from './pages/single/single.component';
 import { NavbarComponent } from './common/navbar/navbar.component';
+import { AppLayoutComponent } from './layouts/app-layout/app-layout.component';
 
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, HomeComponent, CategoryComponent, SingleComponent, NavbarComponent],
+  declarations: [
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    CategoryComponent,
+    SingleComponent,
+    NavbarComponent,
+    AppLayoutComponent,
+  ],
   imports: [
     CommonModule,
     TutorialsRoutingModule,
