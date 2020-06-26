@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost/tutorialswp/api/'
+  apiUrl: 'http://localhost/tutorialswp/'
 };

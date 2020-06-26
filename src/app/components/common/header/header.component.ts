@@ -8,17 +8,41 @@ import { HttpService } from 'src/app/services/http.service';
 })
 export class HeaderComponent implements OnInit {
 
+  navItems: any;
+
   constructor(
     private httpService: HttpService
   ) { }
 
   ngOnInit(): void {
 
-     // this.navData.getHeaderNav().subscribe(data => {
-      //   this.navItems = data;
-      // });
-
-      // this.navItems = this.data.getHeaderNav();
+    this.navItems = [
+      {
+        'name': 'Home',
+        'link': '/',
+        'classes': 'active'
+      },
+      {
+        'name': 'Tutorials',
+        'link': '/tutorials',
+        'classes': ''
+      },
+      {
+        'name': 'Interview Questions',
+        'link': '/interview-questions',
+        'classes': ''
+      },
+      {
+        'name': 'Snippets',
+        'link': '/snippets',
+        'classes': ''
+      },
+      // {
+      //   'name': 'Blog',
+      //   'link': '/blog',
+      //   'classes': ''
+      // }
+    ];
 
   }
 

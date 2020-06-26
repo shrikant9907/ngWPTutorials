@@ -1,0 +1,31 @@
+.latest-tutorials {
+    .card {
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        box-shadow: 0 0 6px 4px rgba(0,0,0,0.08) !important;
+        &:hover {
+            box-shadow: 0 0 6px 4px rgba(0,0,0,0.3) !important;
+        }
+        img {
+            max-width: 70px;
+        }
+        &.php {
+            img {
+                margin: 20px 0 34px 0 !important
+            }
+        }
+        &.wordpress {
+            img {
+                margin-bottom: 18px !important
+            }
+        }
+        .card-title {
+            font-size: 20px;
+        }
+        .btn {
+            font-size: 14px;
+        }
+    }
+}
